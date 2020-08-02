@@ -29,6 +29,8 @@ gem 'jbuilder', '2.5.0'
 # gem 'capistrano-rails', group: :development
 #twitter bootstrap
 gem 'bootstrap-sass', '3.3.7'
+#font awesome
+gem 'font-awesome-sass', '5.13.0'
 
 group :development, :test do
    # Use sqlite3 as the database for Active Record

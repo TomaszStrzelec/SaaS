@@ -17,6 +17,10 @@
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
 
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+
 h1, h2, h3 {
     font-family: 'Open Sans', sans-serif;
 }
@@ -48,3 +52,19 @@ background: linear-gradient(to right, #cdccdc, #d9a7c7); /* W3C, IE 10+/ Edge, F
     
 }
 
+.navbar-brand {
+    font-family: 'Open-Sans', sans-serif;
+    font-weight: 800;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-default .navbar-toggle {
+    background-color:#d9a7c7;
+    border: 0.1em solid white;
+    &:hover, &:focus {
+         background-color:#f9a7c7;
+    }
+}
