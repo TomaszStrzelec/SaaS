@@ -31,6 +31,8 @@ gem 'jbuilder', '2.5.0'
 gem 'bootstrap-sass', '3.3.7'
 #font awesome
 gem 'font-awesome-sass', '5.13.0'
+#Use Hirb for enhanced database output
+gem 'hirb', '0.7.3'
 
 group :development, :test do
    # Use sqlite3 as the database for Active Record
